@@ -45,9 +45,9 @@
 
         lower_layer {
             bindings = <
-&kp TILDE  &kp N1    &kp N2    &kp N3           &kp N4          &kp N5           &kp N6  &kp N7  &kp N8    &kp N9    &kp N0    &kp DEL
-&kp FR_PLUS  &kp FR_MINUS &kp FR_ACUTE     &kp FR_CARET    &kp FR_GRAVE &kp FR_APOS    &trans  &trans  &kp LPAR  &kp RPAR  &kp LBKT  &kp RBKT
-&kp ASTRK  &kp FSLH  &kp EQUAL &kp FR_AT        &kp FR_DLLR     &kp FR_HASH      &trans  &trans  &kp LBRC  &kp RBRC  &kp LT    &kp GT
+&kp FR_TILDE  &kp N1    &kp N2    &kp N3           &kp N4          &kp N5           &kp N6  &kp N7  &kp N8    &kp N9    &kp N0    &kp DEL
+&kp FR_PLUS  &kp FR_MINUS &kp FR_ACUTE     &kp FR_CARET    &kp FR_GRAVE &kp FR_APOS    &trans  &trans  &kp FR_LPAR  &kp FR_RPAR  &kp FR_LBKT  &kp FR_RBKT
+&kp FR_ASTRK  &kp FR_FSLH  &kp FR_EQUAL &kp FR_AT        &kp FR_DLLR     &kp FR_HASH      &trans  &trans  &kp FR_LEFT_BRACE  &kp FR_RIGHT_BRACE  &kp FR_LT    &kp FR_GT
                                &trans  &trans  &trans            &trans  &trans  &trans
             >;
         };
