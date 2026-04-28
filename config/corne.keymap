@@ -36,7 +36,7 @@
         // ,-----------------------------------.                    ,------------------------------------.
         // |  ~  |  1  |  2  |  3  |  4  |  5  |                    |  6  |  7  |  8  |  9  |  0  | DEL  |
         // |-----+-----+-----+-----+-----+-----|                    |-----+-----+-----+-----+-----+------|
-        // |  ¨  |  ç  |  ´  |  ^  |  `  |     |                    |  #  |  $  |  (  |  )  |  [  |   ]  |
+        // |  ¨  |  ç  |  ´  |  ^  |  `  |  '  |                    |  #  |  $  |  (  |  )  |  [  |   ]  |
         // |-----+-----+-----+-----+-----+-----|                    |-----+-----+-----+-----+-----+------|
         // |  %  |  +  |  -  |  *  |  /  |  =  |                    |  @  |  &  |  {  |  }  |  <  |  >   |
         // `-----------------+-----+-----+-----|                    |-----+-----+-----+-----------------.
@@ -46,7 +46,7 @@
         lower_layer {
             bindings = <
 &kp FR_TILDE   &kp N1          &kp N2        &kp N3        &kp N4        &kp N5           &kp N6       &kp N7       &kp N8             &kp N9             &kp N0       &kp DEL
-&kp FR_UMLAUT  &kp FR_C_CEDILLA &kp FR_ACUTE  &kp FR_CARET  &kp FR_GRAVE  &trans           &kp FR_HASH  &kp FR_DLLR  &kp FR_LPAR        &kp FR_RPAR        &kp FR_LBKT  &kp FR_RBKT
+&kp FR_UMLAUT  &kp FR_C_CEDILLA &kp FR_ACUTE  &kp FR_CARET  &kp FR_GRAVE  &kp FR_SQT      &kp FR_HASH  &kp FR_DLLR  &kp FR_LPAR        &kp FR_RPAR        &kp FR_LBKT  &kp FR_RBKT
 &kp FR_PRCNT   &kp FR_PLUS     &kp FR_MINUS  &kp FR_ASTRK  &kp FR_FSLH   &kp FR_EQUAL     &kp FR_AT    &kp FR_AMPS  &kp FR_LEFT_BRACE  &kp FR_RIGHT_BRACE &kp FR_LT    &kp FR_GT
                                &trans  &trans  &trans            &trans  &trans  &trans
             >;
